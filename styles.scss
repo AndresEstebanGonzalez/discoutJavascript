@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .input-text {
+    width: 40%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+.submit-btn {
+  width: 20%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 50px;
+}
+.bottom-sector {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
